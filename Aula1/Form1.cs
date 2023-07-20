@@ -19,19 +19,7 @@ namespace Aula1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string[] vetorDeAPIs = new string[3];
-
-            vetorDeAPIs[0] = "API 1";
-            vetorDeAPIs[1] = "API 2";
-            vetorDeAPIs[2] = "API 3";
-
-            string textoAPIs = "";
-            for (int i = 0; i < vetorDeAPIs.Length; i++)
-            {
-                textoAPIs += vetorDeAPIs[i] + "\n";
-            }
-
-            lblAPIs.Text = textoAPIs;
+            
         }
 
         private void btnProfessor_Click(object sender, EventArgs e)
