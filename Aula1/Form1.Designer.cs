@@ -31,7 +31,7 @@ namespace Aula1
         {
             this.lblName = new System.Windows.Forms.Label();
             this.btnProfessor = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnBrian = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblName
@@ -55,25 +55,25 @@ namespace Aula1
             this.btnProfessor.UseVisualStyleBackColor = true;
             this.btnProfessor.Click += new System.EventHandler(this.btnProfessor_Click);
             // 
-            // button1
+            // btnBrian
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(830, 86);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(106, 33);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "brian";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnBrian.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnBrian.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBrian.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnBrian.Location = new System.Drawing.Point(830, 86);
+            this.btnBrian.Name = "btnBrian";
+            this.btnBrian.Size = new System.Drawing.Size(106, 33);
+            this.btnBrian.TabIndex = 2;
+            this.btnBrian.Text = "brian";
+            this.btnBrian.UseVisualStyleBackColor = false;
+            this.btnBrian.Click += new System.EventHandler(this.btnBrian_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1080, 554);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnBrian);
             this.Controls.Add(this.btnProfessor);
             this.Controls.Add(this.lblName);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -89,7 +89,7 @@ namespace Aula1
 
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Button btnProfessor;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnBrian;
     }
 }
 
