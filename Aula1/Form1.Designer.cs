@@ -31,7 +31,7 @@ namespace Aula1
         {
             this.lblName = new System.Windows.Forms.Label();
             this.btnProfessor = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnBea = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblName
@@ -55,27 +55,27 @@ namespace Aula1
             this.btnProfessor.UseVisualStyleBackColor = true;
             this.btnProfessor.Click += new System.EventHandler(this.btnProfessor_Click);
             // 
-            // button1
+            // btnBea
             // 
-            this.button1.BackColor = System.Drawing.Color.Salmon;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.SystemColors.Control;
-            this.button1.Location = new System.Drawing.Point(224, 391);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(88, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Bea Leal";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnBea.BackColor = System.Drawing.Color.Salmon;
+            this.btnBea.FlatAppearance.BorderSize = 0;
+            this.btnBea.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBea.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnBea.Location = new System.Drawing.Point(224, 391);
+            this.btnBea.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnBea.Name = "btnBea";
+            this.btnBea.Size = new System.Drawing.Size(88, 23);
+            this.btnBea.TabIndex = 2;
+            this.btnBea.Text = "Bea Leal";
+            this.btnBea.UseVisualStyleBackColor = false;
+//            this.btnBea.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1260, 554);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnBea);
             this.Controls.Add(this.btnProfessor);
             this.Controls.Add(this.lblName);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -92,7 +92,7 @@ namespace Aula1
 
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Button btnProfessor;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnBea;
     }
 }
 
