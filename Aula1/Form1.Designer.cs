@@ -30,24 +30,37 @@ namespace Aula1
         private void InitializeComponent()
         {
             this.lblName = new System.Windows.Forms.Label();
+            this.btnGabriel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(346, 595);
+            this.lblName.Location = new System.Drawing.Point(260, 483);
+            this.lblName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(46, 17);
+            this.lblName.Size = new System.Drawing.Size(35, 13);
             this.lblName.TabIndex = 0;
             this.lblName.Text = "label1";
             // 
+            // btnGabriel
+            // 
+            this.btnGabriel.Location = new System.Drawing.Point(178, 82);
+            this.btnGabriel.Name = "btnGabriel";
+            this.btnGabriel.Size = new System.Drawing.Size(75, 23);
+            this.btnGabriel.TabIndex = 1;
+            this.btnGabriel.Text = "Gabriel";
+            this.btnGabriel.UseVisualStyleBackColor = true;
+            this.btnGabriel.Click += new System.EventHandler(this.btnGabriel_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1440, 682);
+            this.ClientSize = new System.Drawing.Size(1080, 554);
+            this.Controls.Add(this.btnGabriel);
             this.Controls.Add(this.lblName);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -59,6 +72,7 @@ namespace Aula1
         #endregion
 
         private System.Windows.Forms.Label lblName;
+        private System.Windows.Forms.Button btnGabriel;
     }
 }
 

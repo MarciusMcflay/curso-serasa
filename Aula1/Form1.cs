@@ -33,5 +33,10 @@ namespace Aula1
 
             lblAPIs.Text = textoAPIs;
         }
+
+        private void btnGabriel_Click(object sender, EventArgs e)
+        {
+            lblName.Text = "Gabriel";
+        }
     }
 }
