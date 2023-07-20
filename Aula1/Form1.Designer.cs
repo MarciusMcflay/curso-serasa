@@ -31,7 +31,7 @@ namespace Aula1
         {
             this.lblName = new System.Windows.Forms.Label();
             this.btnProfessor = new System.Windows.Forms.Button();
-            this.btnName = new System.Windows.Forms.Button();
+            this.btnAlana = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblName
@@ -55,25 +55,25 @@ namespace Aula1
             this.btnProfessor.UseVisualStyleBackColor = true;
             this.btnProfessor.Click += new System.EventHandler(this.btnProfessor_Click);
             // 
-            // btnName
+            // btnAlana
             // 
-            this.btnName.BackColor = System.Drawing.Color.LightCoral;
-            this.btnName.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.btnName.FlatAppearance.BorderSize = 0;
-            this.btnName.Location = new System.Drawing.Point(82, 238);
-            this.btnName.Name = "btnName";
-            this.btnName.Size = new System.Drawing.Size(78, 39);
-            this.btnName.TabIndex = 2;
-            this.btnName.Text = "Alana";
-            this.btnName.UseVisualStyleBackColor = false;
-            this.btnName.Click += new System.EventHandler(this.button1_Click);
+            this.btnAlana.BackColor = System.Drawing.Color.LightCoral;
+            this.btnAlana.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnAlana.FlatAppearance.BorderSize = 0;
+            this.btnAlana.Location = new System.Drawing.Point(82, 238);
+            this.btnAlana.Name = "btnAlana";
+            this.btnAlana.Size = new System.Drawing.Size(78, 39);
+            this.btnAlana.TabIndex = 2;
+            this.btnAlana.Text = "Alana";
+            this.btnAlana.UseVisualStyleBackColor = false;
+            this.btnAlana.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1080, 554);
-            this.Controls.Add(this.btnName);
+            this.Controls.Add(this.btnAlana);
             this.Controls.Add(this.btnProfessor);
             this.Controls.Add(this.lblName);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -89,7 +89,7 @@ namespace Aula1
 
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Button btnProfessor;
-        private System.Windows.Forms.Button btnName;
+        private System.Windows.Forms.Button btnAlana;
     }
 }
 
