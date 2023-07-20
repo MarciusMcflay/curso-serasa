@@ -31,7 +31,7 @@ namespace Aula1
         {
             this.lblName = new System.Windows.Forms.Label();
             this.btnProfessor = new System.Windows.Forms.Button();
-            this.buttton1 = new System.Windows.Forms.Button();
+            this.btnBeatriz = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblName
@@ -55,22 +55,22 @@ namespace Aula1
             this.btnProfessor.UseVisualStyleBackColor = true;
             this.btnProfessor.Click += new System.EventHandler(this.btnProfessor_Click);
             // 
-            // buttton1
+            // btnBeatriz
             // 
-            this.buttton1.Location = new System.Drawing.Point(588, 256);
-            this.buttton1.Name = "buttton1";
-            this.buttton1.Size = new System.Drawing.Size(64, 25);
-            this.buttton1.TabIndex = 2;
-            this.buttton1.Text = "Beatriz B.";
-            this.buttton1.UseVisualStyleBackColor = true;
-            this.buttton1.Click += new System.EventHandler(this.button1_Click);
+            this.btnBeatriz.Location = new System.Drawing.Point(588, 256);
+            this.btnBeatriz.Name = "btnBeatriz";
+            this.btnBeatriz.Size = new System.Drawing.Size(64, 25);
+            this.btnBeatriz.TabIndex = 2;
+            this.btnBeatriz.Text = "Beatriz B.";
+            this.btnBeatriz.UseVisualStyleBackColor = true;
+            this.btnBeatriz.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1080, 554);
-            this.Controls.Add(this.buttton1);
+            this.Controls.Add(this.btnBeatriz);
             this.Controls.Add(this.btnProfessor);
             this.Controls.Add(this.lblName);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -86,7 +86,7 @@ namespace Aula1
 
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Button btnProfessor;
-        private System.Windows.Forms.Button buttton1;
+        private System.Windows.Forms.Button btnBeatriz;
     }
 }
 
