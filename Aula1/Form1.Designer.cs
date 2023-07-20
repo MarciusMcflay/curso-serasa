@@ -31,35 +31,49 @@ namespace Aula1
         {
             this.lblName = new System.Windows.Forms.Label();
             this.btnProfessor = new System.Windows.Forms.Button();
+            this.btnSte = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(346, 595);
+            this.lblName.Location = new System.Drawing.Point(260, 483);
+            this.lblName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(46, 17);
+            this.lblName.Size = new System.Drawing.Size(35, 13);
             this.lblName.TabIndex = 0;
             this.lblName.Text = "label1";
             // 
             // btnProfessor
             // 
-            this.btnProfessor.Location = new System.Drawing.Point(1106, 588);
+            this.btnProfessor.Location = new System.Drawing.Point(830, 478);
+            this.btnProfessor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnProfessor.Name = "btnProfessor";
-            this.btnProfessor.Size = new System.Drawing.Size(75, 23);
+            this.btnProfessor.Size = new System.Drawing.Size(56, 19);
             this.btnProfessor.TabIndex = 1;
             this.btnProfessor.Text = "Professor";
             this.btnProfessor.UseVisualStyleBackColor = true;
             this.btnProfessor.Click += new System.EventHandler(this.btnProfessor_Click);
             // 
+            // btnSte
+            // 
+            this.btnSte.Location = new System.Drawing.Point(717, 445);
+            this.btnSte.Name = "btnSte";
+            this.btnSte.Size = new System.Drawing.Size(75, 23);
+            this.btnSte.TabIndex = 2;
+            this.btnSte.Text = "Stephanie";
+            this.btnSte.UseVisualStyleBackColor = true;
+            this.btnSte.Click += new System.EventHandler(this.btnSte_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1440, 682);
+            this.ClientSize = new System.Drawing.Size(1080, 554);
+            this.Controls.Add(this.btnSte);
             this.Controls.Add(this.btnProfessor);
             this.Controls.Add(this.lblName);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -72,6 +86,7 @@ namespace Aula1
 
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Button btnProfessor;
+        private System.Windows.Forms.Button btnSte;
     }
 }
 
