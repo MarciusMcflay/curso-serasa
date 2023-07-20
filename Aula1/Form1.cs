@@ -22,7 +22,7 @@ namespace Aula1
             
         }
 
-        private void btnProfessor_Click(object sender, EventArgs e)
+        private void btnNovaFuncao(object sender, EventArgs e)
         {
             lblName.Text = "Marcius Leandro";
         }

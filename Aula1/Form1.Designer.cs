@@ -53,7 +53,7 @@ namespace Aula1
             this.btnProfessor.TabIndex = 1;
             this.btnProfessor.Text = "Professor";
             this.btnProfessor.UseVisualStyleBackColor = true;
-            this.btnProfessor.Click += new System.EventHandler(this.btnProfessor_Click);
+            this.btnProfessor.Click += new System.EventHandler(this.btnNovaFuncao);
             // 
             // btnMatheusC
             // 
