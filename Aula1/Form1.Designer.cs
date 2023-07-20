@@ -36,7 +36,7 @@ namespace Aula1
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(346, 595);
+            this.lblName.Location = new System.Drawing.Point(344, 603);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(46, 17);
             this.lblName.TabIndex = 0;
