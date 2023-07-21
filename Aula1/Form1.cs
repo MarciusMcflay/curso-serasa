@@ -29,6 +29,11 @@ namespace Aula1
 
         private void button1_Click(object sender, EventArgs e)
         {
+           
+        }
+
+        private void btnJefyt_Click(object sender, EventArgs e)
+        {
             lblName.Text = "Jefyt Almeida Rios";
         }
     }
