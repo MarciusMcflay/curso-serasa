@@ -66,7 +66,7 @@ namespace Aula1
             this.btnAlana.TabIndex = 2;
             this.btnAlana.Text = "Alana";
             this.btnAlana.UseVisualStyleBackColor = false;
-            this.btnAlana.Click += new System.EventHandler(this.button1_Click);
+            this.btnAlana.Click += new System.EventHandler(this.btnAlana_Click);
             // 
             // Form1
             // 
