@@ -31,7 +31,7 @@ namespace Aula1
         {
             this.lblName = new System.Windows.Forms.Label();
             this.btnProfessor = new System.Windows.Forms.Button();
-            this.kett = new System.Windows.Forms.Button();
+            this.btnkett = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblName
@@ -55,22 +55,22 @@ namespace Aula1
             this.btnProfessor.UseVisualStyleBackColor = true;
             this.btnProfessor.Click += new System.EventHandler(this.btnProfessor_Click);
             // 
-            // kett
+            // btnkett
             // 
-            this.kett.Location = new System.Drawing.Point(477, 171);
-            this.kett.Name = "kett";
-            this.kett.Size = new System.Drawing.Size(75, 23);
-            this.kett.TabIndex = 2;
-            this.kett.Text = "Kett";
-            this.kett.UseVisualStyleBackColor = true;
-            this.kett.Click += new System.EventHandler(this.button1_Click);
+            this.btnkett.Location = new System.Drawing.Point(477, 171);
+            this.btnkett.Name = "btnkett";
+            this.btnkett.Size = new System.Drawing.Size(75, 23);
+            this.btnkett.TabIndex = 2;
+            this.btnkett.Text = "Kett";
+            this.btnkett.UseVisualStyleBackColor = true;
+            this.btnkett.Click += new System.EventHandler(this.btnkett_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1080, 554);
-            this.Controls.Add(this.kett);
+            this.Controls.Add(this.btnkett);
             this.Controls.Add(this.btnProfessor);
             this.Controls.Add(this.lblName);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -86,7 +86,7 @@ namespace Aula1
 
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Button btnProfessor;
-        private System.Windows.Forms.Button kett;
+        private System.Windows.Forms.Button btnkett;
     }
 }
 
