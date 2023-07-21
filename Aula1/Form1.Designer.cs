@@ -31,7 +31,7 @@ namespace Aula1
         {
             this.lblName = new System.Windows.Forms.Label();
             this.btnProfessor = new System.Windows.Forms.Button();
-            this.button = new System.Windows.Forms.Button();
+            this.btnIngrid = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblName
@@ -47,7 +47,7 @@ namespace Aula1
             // btnProfessor
             // 
             this.btnProfessor.Location = new System.Drawing.Point(830, 478);
-            this.btnProfessor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnProfessor.Margin = new System.Windows.Forms.Padding(2);
             this.btnProfessor.Name = "btnProfessor";
             this.btnProfessor.Size = new System.Drawing.Size(56, 19);
             this.btnProfessor.TabIndex = 1;
@@ -55,25 +55,25 @@ namespace Aula1
             this.btnProfessor.UseVisualStyleBackColor = true;
             this.btnProfessor.Click += new System.EventHandler(this.btnProfessor_Click);
             // 
-            // button
+            // btnIngrid
             // 
-            this.button.Location = new System.Drawing.Point(100, 402);
-            this.button.Name = "button";
-            this.button.Size = new System.Drawing.Size(75, 23);
-            this.button.TabIndex = 2;
-            this.button.Text = "Ingrid";
-            this.button.UseVisualStyleBackColor = true;
-            this.button.Click += new System.EventHandler(this.button_Click);
+            this.btnIngrid.Location = new System.Drawing.Point(100, 402);
+            this.btnIngrid.Name = "btnIngrid";
+            this.btnIngrid.Size = new System.Drawing.Size(75, 23);
+            this.btnIngrid.TabIndex = 2;
+            this.btnIngrid.Text = "Ingrid";
+            this.btnIngrid.UseVisualStyleBackColor = true;
+            this.btnIngrid.Click += new System.EventHandler(this.btnIngrid_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1080, 554);
-            this.Controls.Add(this.button);
+            this.Controls.Add(this.btnIngrid);
             this.Controls.Add(this.btnProfessor);
             this.Controls.Add(this.lblName);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -86,7 +86,7 @@ namespace Aula1
 
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Button btnProfessor;
-        private System.Windows.Forms.Button button;
+        private System.Windows.Forms.Button btnIngrid;
     }
 }
 

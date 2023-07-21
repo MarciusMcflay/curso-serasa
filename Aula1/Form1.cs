@@ -27,10 +27,11 @@ namespace Aula1
             lblName.Text = "Marcius Leandro";
         }
 
-        private void button_Click(object sender, EventArgs e)
+  
+        private void btnIngrid_Click(object sender, EventArgs e)
         {
             lblName.Text = "Ingrid Amaral";
-                
+
         }
     }
 }
