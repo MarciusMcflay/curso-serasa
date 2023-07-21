@@ -61,9 +61,8 @@ namespace Aula1
             this.btnFernanda.Name = "btnFernanda";
             this.btnFernanda.Size = new System.Drawing.Size(79, 26);
             this.btnFernanda.TabIndex = 2;
-            this.btnFernanda.Text = "Fernanda";
+            this.btnFernanda.Text = "button1";
             this.btnFernanda.UseVisualStyleBackColor = true;
-            this.btnFernanda.Click += new System.EventHandler(this.btnFernanda_Click);
             // 
             // Form1
             // 
