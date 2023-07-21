@@ -31,7 +31,7 @@ namespace Aula1
         {
             this.lblName = new System.Windows.Forms.Label();
             this.btnProfessor = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnPaulo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblName
@@ -47,7 +47,7 @@ namespace Aula1
             // btnProfessor
             // 
             this.btnProfessor.Location = new System.Drawing.Point(830, 478);
-            this.btnProfessor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnProfessor.Margin = new System.Windows.Forms.Padding(2);
             this.btnProfessor.Name = "btnProfessor";
             this.btnProfessor.Size = new System.Drawing.Size(56, 19);
             this.btnProfessor.TabIndex = 1;
@@ -55,28 +55,28 @@ namespace Aula1
             this.btnProfessor.UseVisualStyleBackColor = true;
             this.btnProfessor.Click += new System.EventHandler(this.btnProfessor_Click);
             // 
-            // button1
+            // btnPaulo
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Red;
-            this.button1.Location = new System.Drawing.Point(830, 30);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(63, 31);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Paulo ";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnPaulo.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnPaulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPaulo.ForeColor = System.Drawing.Color.Red;
+            this.btnPaulo.Location = new System.Drawing.Point(830, 30);
+            this.btnPaulo.Name = "btnPaulo";
+            this.btnPaulo.Size = new System.Drawing.Size(63, 31);
+            this.btnPaulo.TabIndex = 2;
+            this.btnPaulo.Text = "Paulo ";
+            this.btnPaulo.UseVisualStyleBackColor = false;
+            this.btnPaulo.Click += new System.EventHandler(this.btnPaulo_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1080, 554);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnPaulo);
             this.Controls.Add(this.btnProfessor);
             this.Controls.Add(this.lblName);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -89,7 +89,7 @@ namespace Aula1
 
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Button btnProfessor;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnPaulo;
     }
 }
 
