@@ -31,7 +31,7 @@ namespace Aula1
         {
             this.lblName = new System.Windows.Forms.Label();
             this.btnProfessor = new System.Windows.Forms.Button();
-            this.btnNicole = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblName
@@ -55,22 +55,22 @@ namespace Aula1
             this.btnProfessor.UseVisualStyleBackColor = true;
             this.btnProfessor.Click += new System.EventHandler(this.btnProfessor_Click);
             // 
-            // btnNicole
+            // button1
             // 
-            this.btnNicole.Location = new System.Drawing.Point(767, 395);
-            this.btnNicole.Name = "btnNicole";
-            this.btnNicole.Size = new System.Drawing.Size(75, 23);
-            this.btnNicole.TabIndex = 2;
-            this.btnNicole.Text = "Nicole";
-            this.btnNicole.UseVisualStyleBackColor = true;
-            this.btnNicole.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Location = new System.Drawing.Point(810, 364);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Nicole ";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.btnNicole_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1080, 554);
-            this.Controls.Add(this.btnNicole);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnProfessor);
             this.Controls.Add(this.lblName);
             this.Margin = new System.Windows.Forms.Padding(2);
@@ -87,6 +87,7 @@ namespace Aula1
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Button btnProfessor;
         private System.Windows.Forms.Button btnNicole;
+        private System.Windows.Forms.Button button1;
     }
 }
 
