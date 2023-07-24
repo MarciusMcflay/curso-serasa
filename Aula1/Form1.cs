@@ -30,6 +30,9 @@ namespace Aula1
         private void btnAlana_Click(object sender, EventArgs e)
         {
             lblName.Text = "Alana";
+            Form frmAlana = new FrmAlana();
+            frmAlana.WindowState = FormWindowState.Maximized;
+            frmAlana.Show();
         }
     }
 }
