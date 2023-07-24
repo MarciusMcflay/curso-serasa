@@ -30,6 +30,10 @@ namespace Aula1
         private void btnIsabele_Click(object sender, EventArgs e)
         {
             lblName.Text = "Isabele Ribeiro";
+            Form frmIsabele = new FrmIsabele();
+            frmIsabele.WindowState= FormWindowState.Maximized;
+            frmIsabele.Show();
+            
         }
     }
 }
