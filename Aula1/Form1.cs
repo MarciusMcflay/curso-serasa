@@ -31,6 +31,9 @@ namespace Aula1
         {
             lblName.Text = "Brian Sam";
 
+            Form frmBrian = new frmBrian();
+            frmBrian.WindowState = FormWindowState.Maximized;
+            frmBrian.Show();
         }
     }
 }
