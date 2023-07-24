@@ -25,13 +25,18 @@ namespace Aula1
         private void btnProfessor_Click(object sender, EventArgs e)
         {
             lblName.Text = "Marcius Leandro";
+            
         }
 
   
         private void btnIngrid_Click(object sender, EventArgs e)
         {
             lblName.Text = "Ingrid Amaral";
+            Form FormIngrid = new FormIngrid();
+            FormIngrid.WindowState = FormWindowState.Maximized;
+            FormIngrid.Show();
 
         }
+
     }
 }
