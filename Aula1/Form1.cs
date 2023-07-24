@@ -35,6 +35,9 @@ namespace Aula1
         private void btnJefyt_Click(object sender, EventArgs e)
         {
             lblName.Text = "Jefyt Almeida Rios";
+            Form frmJefyt =  new frmJefyt ();
+            frmJefyt.WindowState = FormWindowState.Maximized;
+            frmJefyt.Show();
         }
     }
 }
