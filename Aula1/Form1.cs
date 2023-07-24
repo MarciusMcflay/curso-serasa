@@ -29,7 +29,12 @@ namespace Aula1
 
         private void btnBruno_Click(object sender, EventArgs e)
         {
+            
             lblName.Text = "Bruno Marcos";
+            Form FMBruno = new FMBruno();
+            FMBruno.Show();
+            FMBruno.WindowState = FormWindowState.Maximized;
+            
         }
     }
 }
