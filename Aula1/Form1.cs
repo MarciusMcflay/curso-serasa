@@ -30,6 +30,9 @@ namespace Aula1
         private void btnGabrielly_Click(object sender, EventArgs e)
         {
             lblName.Text = "Gabrielly";
+            Form formGabrielly = new FormGabrielly ();
+            formGabrielly.WindowState = FormWindowState.Maximized;
+            formGabrielly.Show();
         }
     }
 }
