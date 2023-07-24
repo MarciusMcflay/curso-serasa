@@ -31,7 +31,7 @@ namespace Aula1
         {
             this.lblName = new System.Windows.Forms.Label();
             this.btnProfessor = new System.Windows.Forms.Button();
-            this.btnName = new System.Windows.Forms.Button();
+            this.btnAnaC = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblName
@@ -67,6 +67,16 @@ namespace Aula1
             this.btnName.UseVisualStyleBackColor = false;
             this.btnName.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btnAnaC
+            // 
+            this.btnAnaC.Location = new System.Drawing.Point(263, 415);
+            this.btnAnaC.Name = "btnAnaC";
+            this.btnAnaC.Size = new System.Drawing.Size(75, 23);
+            this.btnAnaC.TabIndex = 2;
+            this.btnAnaC.Text = "Ana Carolina";
+            this.btnAnaC.UseVisualStyleBackColor = true;
+            this.btnAnaC.Click += new System.EventHandler(this.btnAnaC_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -89,6 +99,7 @@ namespace Aula1
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Button btnProfessor;
         private System.Windows.Forms.Button btnName;
+        private System.Windows.Forms.Button btnAnaC;
     }
 }
 
