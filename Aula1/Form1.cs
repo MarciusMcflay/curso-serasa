@@ -27,9 +27,13 @@ namespace Aula1
             lblName.Text = "Marcius Leandro";
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnCris_Click(object sender, EventArgs e)
         {
             lblName.Text = "Cristian Souza";
+            Form formCris = new FormCris();
+            formCris.WindowState = FormWindowState.Maximized;
+            formCris.Show();
+
         }
     }
 }

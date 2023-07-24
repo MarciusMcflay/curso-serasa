@@ -63,7 +63,7 @@ namespace Aula1
             this.btnCris.TabIndex = 2;
             this.btnCris.Text = "Cristian";
             this.btnCris.UseVisualStyleBackColor = true;
-            this.btnCris.Click += new System.EventHandler(this.button1_Click);
+            this.btnCris.Click += new System.EventHandler(this.btnCris_Click);
             // 
             // Form1
             // 
