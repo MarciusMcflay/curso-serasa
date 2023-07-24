@@ -27,9 +27,18 @@ namespace Aula1
             lblName.Text = "Marcius Leandro";
         }
 
-        private void btnFernanda_Click(object sender, EventArgs e)
+
+        private void btnFernanda_Click_1(object sender, EventArgs e)
         {
-            lblName.Text = " Fernanda Souza";
+            lblName.Text = "Fernanda Souza";
+            Form FrmFernanda = new FrmFernanda();
+            //declaramos uma variavel com o nome de FrmFernanda
+
+            FrmFernanda.Show();
+            //para abrir o segundo forms usamos esse modelo acima
+
+            FrmFernanda.WindowState = FormWindowState.Maximized; 
+            //É somente para ter um tamanho "padrão" já definido pelo programador.
         }
     }
 }

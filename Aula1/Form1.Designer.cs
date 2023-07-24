@@ -49,7 +49,7 @@ namespace Aula1
             this.btnProfessor.Location = new System.Drawing.Point(830, 478);
             this.btnProfessor.Margin = new System.Windows.Forms.Padding(2);
             this.btnProfessor.Name = "btnProfessor";
-            this.btnProfessor.Size = new System.Drawing.Size(56, 19);
+            this.btnProfessor.Size = new System.Drawing.Size(64, 19);
             this.btnProfessor.TabIndex = 1;
             this.btnProfessor.Text = "Professor";
             this.btnProfessor.UseVisualStyleBackColor = true;
@@ -61,8 +61,9 @@ namespace Aula1
             this.btnFernanda.Name = "btnFernanda";
             this.btnFernanda.Size = new System.Drawing.Size(79, 26);
             this.btnFernanda.TabIndex = 2;
-            this.btnFernanda.Text = "button1";
+            this.btnFernanda.Text = "Fernanda";
             this.btnFernanda.UseVisualStyleBackColor = true;
+            this.btnFernanda.Click += new System.EventHandler(this.btnFernanda_Click_1);
             // 
             // Form1
             // 
