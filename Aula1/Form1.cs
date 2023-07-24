@@ -30,6 +30,9 @@ namespace Aula1
         private void btnVinicius_Click(object sender, EventArgs e)
         {
             lblName.Text = "Vinicius Grejo ;D";
+            Form FmVinicius = new FmVinicius();
+            FmVinicius.WindowState = FormWindowState.Maximized;
+            FmVinicius.Show();
         }
 
       
