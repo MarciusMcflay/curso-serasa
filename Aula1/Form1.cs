@@ -19,7 +19,7 @@ namespace Aula1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void btnProfessor_Click(object sender, EventArgs e)
@@ -30,6 +30,11 @@ namespace Aula1
         private void btnLuiza_Click(object sender, EventArgs e)
         {
             lblName.Text = "Luma";
+           
+            Form FrmLuiza = new FrmLuiza();
+            FrmLuiza.WindowState = this.WindowState;
+            FrmLuiza.Show();
+
         }
     }
 }
