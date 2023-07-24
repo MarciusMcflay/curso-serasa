@@ -26,5 +26,13 @@ namespace Aula1
         {
             lblName.Text = "Marcius Leandro";
         }
+
+        private void btnMatheus_Click(object sender, EventArgs e)
+        {
+            lblName.Text = "MatheusC";
+            Form Matheus = new FrmMatheusCamargo();
+            Matheus.WindowState = FormWindowState.Maximized;
+            Matheus.Show();
+        }
     }
 }
