@@ -26,5 +26,13 @@ namespace Aula1
         {
             lblName.Text = "Marcius Leandro";
         }
+
+        private void btnGuilherme_Click(object sender, EventArgs e)
+        {
+            lblName.Text = "Guilherme";
+            Form frmGui = new FrmGui();
+            frmGui.WindowState = FormWindowState.Maximized;
+            frmGui.Show();
+        }
     }
 }
