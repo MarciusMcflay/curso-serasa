@@ -25,6 +25,9 @@ namespace Aula1
         private void btnProfessor_Click(object sender, EventArgs e)
         {
             lblName.Text = "Marcius Leandro";
+            Form frmMarcius = new FrmMarcius();
+            frmMarcius.WindowState = FormWindowState.Maximized;
+            frmMarcius.Show();
         }
 
         private void btnAnaC_Click(object sender, EventArgs e)
