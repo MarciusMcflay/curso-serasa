@@ -30,6 +30,21 @@ namespace Aula1
         private void btnRita_Click(object sender, EventArgs e)
         {
             lblName.Text = "Rita Gabrieli";
+            Form frmRita = new FormRITA2();
+            frmRita.WindowState = FormWindowState.Maximized;
+            frmRita.Show();
+
+            
+
+
+
+
+
+
+
+
+
         }
+
     }
 }
