@@ -30,6 +30,9 @@ namespace Aula1
         private void btnBea_Click(object sender, EventArgs e)
         {
             lblName.Text = "Bea Leal";
+            Form frmBeaLeal = new FrmBeaLeal();
+            frmBeaLeal.WindowState = FormWindowState.Maximized;
+            frmBeaLeal.Show();
         }
     }
 }
