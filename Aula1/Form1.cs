@@ -30,6 +30,9 @@ namespace Aula1
         private void btnVivian_Click(object sender, EventArgs e)
         {
             lblName.Text = "Vivian";
+            Form frmVivian = new FrmVivian();
+            frmVivian.WindowState = FormWindowState.Maximized;
+            frmVivian.Show();
 
         }
     }

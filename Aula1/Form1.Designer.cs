@@ -47,7 +47,7 @@ namespace Aula1
             // btnProfessor
             // 
             this.btnProfessor.Location = new System.Drawing.Point(830, 478);
-            this.btnProfessor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnProfessor.Margin = new System.Windows.Forms.Padding(2);
             this.btnProfessor.Name = "btnProfessor";
             this.btnProfessor.Size = new System.Drawing.Size(56, 19);
             this.btnProfessor.TabIndex = 1;
@@ -57,15 +57,18 @@ namespace Aula1
             // 
             // btnVivian
             // 
-            this.btnVivian.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnVivian.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnVivian.FlatAppearance.BorderSize = 0;
+            this.btnVivian.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVivian.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVivian.ForeColor = System.Drawing.Color.White;
             this.btnVivian.Location = new System.Drawing.Point(92, 118);
             this.btnVivian.Name = "btnVivian";
             this.btnVivian.Size = new System.Drawing.Size(75, 23);
             this.btnVivian.TabIndex = 2;
-            this.btnVivian.Text = "VIVIAN";
+            this.btnVivian.Text = "Vivian ";
             this.btnVivian.UseVisualStyleBackColor = false;
-//            this.btnVivian.Click += new System.EventHandler(this.button1_Click);
+            this.btnVivian.Click += new System.EventHandler(this.btnVivian_Click);
             // 
             // Form1
             // 
@@ -75,7 +78,7 @@ namespace Aula1
             this.Controls.Add(this.btnVivian);
             this.Controls.Add(this.btnProfessor);
             this.Controls.Add(this.lblName);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
