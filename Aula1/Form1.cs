@@ -24,12 +24,15 @@ namespace Aula1
 
         private void btnProfessor_Click(object sender, EventArgs e)
         {
-            lblName.Text = "Marcius Leandro";
+             lblName.Text = "Marcius Leandro";
         }
 
         private void btnBeatriz_Click(object sender, EventArgs e)
         {
             lblName.Text = "Beatriz B.";
+            Form frmBia = new FrmBia();
+            frmBia.WindowState = FormWindowState.Maximized;
+            frmBia.Show();
         }
     }
 }
