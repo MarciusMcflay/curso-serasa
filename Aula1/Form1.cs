@@ -30,6 +30,9 @@ namespace Aula1
         private void btnMicael_Click(object sender, EventArgs e)
         {
             lblName.Text = "Micael Nunes";
+            Form frmMicael = new frmMicael();
+            frmMicael.WindowState = FormWindowState.Maximized;
+            frmMicael.Show();
         }
     }
 }
