@@ -30,6 +30,10 @@ namespace Aula1
         private void btnSte_Click(object sender, EventArgs e)
         {
             lblName.Text = "Stephanie Marys";
+            Form frmSte = new FrmSte();
+            frmSte.WindowState = FormWindowState.Maximized;
+            frmSte.Show();
+            
         }
     }
 }
