@@ -33,6 +33,7 @@ namespace Aula1
             Form frmAlana = new FrmAlana();
             frmAlana.WindowState = FormWindowState.Maximized;
             frmAlana.Show();
+
         }
     }
 }

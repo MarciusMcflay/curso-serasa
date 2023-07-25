@@ -16,5 +16,10 @@ namespace Aula1
         {
             InitializeComponent();
         }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+            string BirthDate = dTPBirthDate.Value.ToString("yyyy-MM-dd");
+        }
     }
 }
