@@ -16,5 +16,16 @@ namespace Aula1
         {
             InitializeComponent();
         }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+            string date = dTPBDate.Value.ToString("yyyy-MM-dd");
+            label1.Text = date;
+        }
     }
 }
