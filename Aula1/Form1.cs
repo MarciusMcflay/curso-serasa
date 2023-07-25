@@ -40,5 +40,12 @@ namespace Aula1
         {
             lblName.Text = "Alana";
         }
+
+        private void btnSara_Click(object sender, EventArgs e)
+        {
+            Form frmSara = new FrmSara();
+            frmSara.WindowState = FormWindowState.Maximized;
+            frmSara.Show();
+        }
     }
 }
