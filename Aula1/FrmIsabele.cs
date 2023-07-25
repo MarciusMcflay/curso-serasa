@@ -16,5 +16,16 @@ namespace Aula1
         {
             InitializeComponent();
         }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+            string dataNascimento = dTPBDate.Value.ToString("yyyy-MM-dd");
+            lblDataNascimento.Text = dataNascimento;
+        }
+
+        private void dTPBDate_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
