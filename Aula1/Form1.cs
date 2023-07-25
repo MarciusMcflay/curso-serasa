@@ -30,7 +30,6 @@ namespace Aula1
         private void btnLuiza_Click(object sender, EventArgs e)
         {
             lblName.Text = "Luma";
-           
             Form FrmLuiza = new FrmLuiza();
             FrmLuiza.WindowState = this.WindowState;
             FrmLuiza.Show();

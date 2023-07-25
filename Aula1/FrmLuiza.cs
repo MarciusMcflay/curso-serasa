@@ -16,5 +16,12 @@ namespace Aula1
         {
             InitializeComponent();
         }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+            string dtNascimento = dateNascimento.Value.ToString("yyyy-MM-dd");
+
+
+        }
     }
 }
