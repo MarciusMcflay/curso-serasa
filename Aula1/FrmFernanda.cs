@@ -16,5 +16,16 @@ namespace Aula1
         {
             InitializeComponent();
         }
+
+        private void FrmFernanda_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+            string dataNascimento = dTPBDate.Value.ToString("yyyy/MM/dd");
+            label2.Text = dataNascimento;
+        }
     }
 }
