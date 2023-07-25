@@ -47,7 +47,7 @@ namespace Aula1
             // btnProfessor
             // 
             this.btnProfessor.Location = new System.Drawing.Point(830, 478);
-            this.btnProfessor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnProfessor.Margin = new System.Windows.Forms.Padding(2);
             this.btnProfessor.Name = "btnProfessor";
             this.btnProfessor.Size = new System.Drawing.Size(56, 19);
             this.btnProfessor.TabIndex = 1;
@@ -73,7 +73,7 @@ namespace Aula1
             this.Controls.Add(this.btnName);
             this.Controls.Add(this.btnProfessor);
             this.Controls.Add(this.lblName);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
