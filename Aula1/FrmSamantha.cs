@@ -16,5 +16,13 @@ namespace Aula1
         {
             InitializeComponent();
         }
+
+        private void btnRegister_Click(object sender, EventArgs e)
+        {
+            string dataNascimento = dTPDataNascimento.Value.ToString("yyyy-MM-dd");
+            lblData.Text = dataNascimento;
+
+
+        }
     }
 }
