@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
 
 namespace Aula1
 {
@@ -83,9 +84,29 @@ namespace Aula1
             tbskill.Text = "";
         }
 
-        private void FrmMarcius_Load(object sender, EventArgs e)
+        private void tbEmail_Validated(object sender, EventArgs e)
         {
+            string email = tbEmail.Text;
+            Regex regex = new Regex(@"^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$");
+            if (!regex.IsMatch(email))
+            {
+                MessageBox.Show("Email inválido");
+                tbEmail.BackColor = Color.Red;
+            }
+        }
 
+        private void pbPass_Click(object sender, EventArgs e)
+        {
+            if (tbPass.PasswordChar == '*')
+            {
+                tbPass.PasswordChar = '\0'; // Mostrar a senha
+                pbPass.Image = Image.FromFile(@"..\..\Images\view.png");
+            }
+            else
+            {
+                tbPass.PasswordChar = '*'; // Ocultar a senha
+                pbPass.Image = Image.FromFile(@"..\..\Images\hide.png"); 
+            }
         }
     }
 }

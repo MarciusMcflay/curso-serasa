@@ -50,8 +50,16 @@ namespace Aula1
             this.tbName = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.tbEmail = new System.Windows.Forms.TextBox();
+            this.tbPass = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.pbPass = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbPass)).BeginInit();
             this.SuspendLayout();
             // 
             // dpDataNascimento
@@ -65,7 +73,7 @@ namespace Aula1
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(21, 117);
+            this.label1.Location = new System.Drawing.Point(3, 117);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(138, 17);
             this.label1.TabIndex = 1;
@@ -233,7 +241,7 @@ namespace Aula1
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(15, 64);
+            this.label4.Location = new System.Drawing.Point(29, 64);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(112, 17);
             this.label4.TabIndex = 16;
@@ -249,13 +257,83 @@ namespace Aula1
             this.groupBox1.Size = new System.Drawing.Size(311, 100);
             this.groupBox1.TabIndex = 17;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Text = "Pretenção";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(600, 64);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(46, 17);
+            this.label5.TabIndex = 18;
+            this.label5.Text = "Email:";
+            // 
+            // tbEmail
+            // 
+            this.tbEmail.Location = new System.Drawing.Point(653, 61);
+            this.tbEmail.Margin = new System.Windows.Forms.Padding(4);
+            this.tbEmail.Name = "tbEmail";
+            this.tbEmail.Size = new System.Drawing.Size(200, 22);
+            this.tbEmail.TabIndex = 19;
+            this.tbEmail.Validated += new System.EventHandler(this.tbEmail_Validated);
+            // 
+            // tbPass
+            // 
+            this.tbPass.Location = new System.Drawing.Point(653, 112);
+            this.tbPass.Margin = new System.Windows.Forms.Padding(4);
+            this.tbPass.Name = "tbPass";
+            this.tbPass.PasswordChar = '*';
+            this.tbPass.Size = new System.Drawing.Size(200, 22);
+            this.tbPass.TabIndex = 21;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(593, 115);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(53, 17);
+            this.label6.TabIndex = 20;
+            this.label6.Text = "Senha:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(578, 164);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(68, 17);
+            this.label7.TabIndex = 23;
+            this.label7.Text = "Telefone:";
+            // 
+            // maskedTextBox1
+            // 
+            this.maskedTextBox1.Location = new System.Drawing.Point(652, 160);
+            this.maskedTextBox1.Mask = "(00) 00000-0000";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(201, 22);
+            this.maskedTextBox1.TabIndex = 24;
+            // 
+            // pbPass
+            // 
+            this.pbPass.Image = global::Aula1.Properties.Resources.hide;
+            this.pbPass.Location = new System.Drawing.Point(891, 112);
+            this.pbPass.Name = "pbPass";
+            this.pbPass.Size = new System.Drawing.Size(23, 21);
+            this.pbPass.TabIndex = 22;
+            this.pbPass.TabStop = false;
+            this.pbPass.Click += new System.EventHandler(this.pbPass_Click);
             // 
             // FrmMarcius
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1531, 726);
+            this.Controls.Add(this.maskedTextBox1);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.pbPass);
+            this.Controls.Add(this.tbPass);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.tbEmail);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.tbName);
@@ -271,11 +349,11 @@ namespace Aula1
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FrmMarcius";
             this.Text = "Cadastro do Currilum do Professor";
-            this.Load += new System.EventHandler(this.FrmMarcius_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbPass)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -304,5 +382,12 @@ namespace Aula1
         private System.Windows.Forms.TextBox tbName;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox tbEmail;
+        private System.Windows.Forms.TextBox tbPass;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox pbPass;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
     }
 }
